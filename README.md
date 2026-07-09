@@ -2,7 +2,7 @@
 
 ### AI-Powered Academic Assistant using Flask, Google Gemini, LangChain, and FAISS
 
-ChatScholar GenAI enables users to upload PDF documents, interact with them through natural language, generate essay rubrics, and receive AI-assisted responses based on document content.
+ChatScholar GenAI enables users to upload PDF documents, interact with them through natural language, generate essay rubrics(essay rules), and receive AI-assisted responses based on document content.
 
 ---
 
@@ -60,11 +60,11 @@ ChatScholar_GenAI
 │   ├── uploaded PDFs
 │
 ├── templates/
-│   ├── new_home.html
-|   ├── new_chat.html
-│   ├── new_pdf_chat.html
-│   ├── new_essay_grading.html
-│   └── new_essay_rubric.html
+    ├── new_home.html
+    ├── new_chat.html
+    ├── new_pdf_chat.html
+    ├── new_essay_grading.html
+    └── new_essay_rubric.html
 
 ```
 
@@ -228,7 +228,7 @@ Receive contextual responses using Retrieval-Augmented Generation (RAG).
 
 ## Home Page
 
-(Add Screenshot)
+![Home Page](images/home.png)
 
 ---
 
@@ -244,11 +244,6 @@ Receive contextual responses using Retrieval-Augmented Generation (RAG).
 
 ---
 
-## Rubric Generator
-
-(Add Screenshot)
-
----
 
 # 🔒 Environment Variables
 
@@ -256,9 +251,7 @@ Receive contextual responses using Retrieval-Augmented Generation (RAG).
 GOOGLE_API_KEY=YOUR_API_KEY
 ```
 
-Never upload your `.env` file to GitHub.
 
----
 
 # 📈 Future Improvements
 
