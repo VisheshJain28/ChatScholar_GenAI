@@ -234,13 +234,14 @@ Receive contextual responses using Retrieval-Augmented Generation (RAG).
 
 ## PDF Chat
 
-(Add Screenshot)
+![Chat](images/chat.png)
 
 ---
 
 ## Essay Grading
 
-(Add Screenshot)
+![Essay Rules](images/grading1.png)
+![Essay Evaluation](images/grading2.png)
 
 ---
 
